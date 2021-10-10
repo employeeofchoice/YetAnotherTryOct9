@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentOne">
+
+    <fragment
+        android:id="@+id/fragmentOne"
+        android:name="com.example.tasklists.model.FragmentTwo"
+        android:label="fragment_one"
+        tools:layout="@layout/fragment_one">
+        <action
+            android:id="@+id/action_fragmentOne_to_fragmentTwo"
+            app:destination="@id/fragmentTwo" />
+        <argument
+            android:name="updateNewData"
+            android:defaultValue=""
+            app:argType="string" />
+        <argument
+            android:name="newlyEditedTask"
+            app:argType="string"
+            app:nullable="true" />
+        <argument
+            android:name="newAddedTask"
+            app:argType="string"
+            app:nullable="true" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentTwo"
+        android:name="com.example.tasklists.model.FragmentTwo"
+        android:label="fragment_two"
+        tools:layout="@layout/fragment_two">
+        <argument
+            android:name="editData"
+            android:defaultValue=""
+            app:argType="string"
+            />
+        <action
+            android:id="@+id/action_fragmentTwo_to_fragmentOne"
+            app:destination="@id/fragmentOne" />
+    </fragment>
+</navigation>

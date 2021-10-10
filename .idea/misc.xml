@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/display_view.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/fragment_one.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/fragment_two.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/fragment_update.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry - Copy/app/src/main/res/layout/item_layout.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/Finished Projects GoogleDev/YetAnotherTry/app/src/main/res/layout/fragment_update.xml" value="0.1" />
+        <entry key="..\:/Users/memes/Desktop/YetAnotherTry/app/src/main/res/drawable/alterego.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/memes/Desktop/YetAnotherTry/app/src/main/res/layout/activity_main.xml" value="0.153125" />
+        <entry key="..\:/Users/memes/Desktop/YetAnotherTry/app/src/main/res/layout/item_layout.xml" value="0.1646153846153846" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
