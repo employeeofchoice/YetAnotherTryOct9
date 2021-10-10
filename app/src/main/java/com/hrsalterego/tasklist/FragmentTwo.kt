@@ -44,6 +44,7 @@ class FragmentTwo : Fragment() {
             Log.d("Meme", "before returning to FragmentOne $newlyEditedTask")
             var listViewModel = ListViewModel()
             listViewModel.tasks[viewModel.positionClicked] = newlyEditedTask
+            //TODO: Figure out what's going on with below
             val action =
                 FragmentTwoDirections.actionFragmentOneToFragmentTwo(newlyEditedTask, "")
 
